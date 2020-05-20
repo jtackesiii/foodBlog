@@ -17,6 +17,7 @@ summaryLength = 0
   favicon = "/icon/favicon.jpg"
   about = """
 This is a simple blog about food and more. Enjoy!
+(c) 2020 Angela Xia
 """
 
   [[params.links]]
