@@ -1,6 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+tags: ["your-first-tag-here", "your-next-tag-here", "and-so-on"]
 ---
-
