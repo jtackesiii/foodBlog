@@ -1,3 +1,26 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Food Blog X"
+theme = "rocinante"
+paginate = 3
+summaryLength = 0
+
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+
+[author]
+  name = "Angela Xia"
+
+[params]
+  mainSections = ["post", "photos"]
+  email = ""
+  favicon = "/icon/favicon.jpg"
+  about = """
+This is a simple blog about food and more. Enjoy!
+"""
+
+  [[params.links]]
+    [[params.links.link]]
+      name = "About"
+      href = "/about"
+      new_tab = false
