@@ -69,7 +69,7 @@ For photo galleries, there are a few additional pieces of information to specify
 
 **display_date**: Since your photo gallery may pre-date your blog post, and the photos may have been taken on various days, you can add a custom date here. This date won't affect how your blog post is sorted on the website, but the regular "date" field will, so be careful!
 
-**footer**: Unfortunately, you cannot add individual captions to photos in a gallery. You can add a collective caption, however, and that is what this is for.
+**footer**: By default, all of the text of your blog post will come before your photo gallery. If you want to create text _below_ the gallery, you can do so in the footer section of the frontmatter. All of the same Markdown rules apply when adding the footer, but _you have to make sure that all of the text is indented once_ -- otherwise your whole website will crash!
 
 **banner**: Do you want one photo from your gallery to be visible on the home screen inside the blurb for your photo gallery post? If so, specify one of your gallery photos to use as a banner.
 
